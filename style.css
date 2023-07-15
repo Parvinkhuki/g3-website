@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.pr-color{
+    color:#FF900E;
+}
+header{
+    background-color:rgba(255, 144, 14, 0.10);
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+.nav-container > ul{
+    display: flex;
+}
+.nav-container li{
+    list-style: none;
+    margin-right: 50px;
+    font-size:1.06rem ;
+}
+.nav-container > .logo{
+    color: #131313;
+    font-size: 2.89rem;
+    font-weight: 700;
+}
+.imag{
+    width:100%;
+}
+.banner-container{
+    text-align: center;
+    padding: 50px 240px;
+}
+.banner-tittle{
+    color: #131313;
+    font-size: 3.85rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text-descrive{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+}
+.bttn{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    color:white;
+    font-size:1.25rem;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-style:none ;
+
+}
+main{
+    margin:0 auto;
+}
+.quick-container{
+    display: flex;
+    gap: 120px;
+    margin: 50px 240px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.quick-container .card{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:20px;
+}
+.quick-list{
+    margin: 0 100px;
+}
+.quick-list>h2{
+    color:#131313;
+font-size: 3rem;
+font-weight: 700;
+}
+.quick-list .para{
+    color: #727272;
+font-size: 1rem;
+font-weight: 400;
+margin-top:30px;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:756px){
+
+    .nav-container, .card, .quick-container{
+        flex-direction: column;
+        
+     
+    }
+    .quick-container .card{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .nav-container li{
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    .banner-container{
+        margin-right: 0;
+        padding: 20px;
+    }
+    .text-descrive{
+        width:70%;
+    }
+    .bannaer-imag{
+        width:100%;
+    }
+    .quick-container{
+        margin: 20px;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+
+    .nav-container,.quick-container{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    .quick-list{
+        margin: auto;
+    }
+}
