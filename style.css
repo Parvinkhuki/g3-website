@@ -292,7 +292,7 @@ margin: 100px 240px 20px 240px;
 }
 @media (min-width: 768px) and (max-width: 1199.98px) { 
 
-    .nav-container,.quick-container,.feature-container{
+    .nav-container,.quick-container,.feature-container,.icon-container{
         flex-direction: column;
     }
     .quick-container .card{
@@ -319,4 +319,28 @@ margin: 100px 240px 20px 240px;
         max-width:300px;
         
     }
+    .icon-container{
+        gap:20px;
+        margin-bottom: 40px;
+    } 
+    .icons{
+        margin: 50px 90px;
+    }
+    .footer{
+        width:70%;
+    height: auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+    color: var(--dark-02, #424242);
+    margin:auto;
+    }
+    .footer small{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: small;
+    }
+    
 }
