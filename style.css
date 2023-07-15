@@ -171,9 +171,15 @@ margin-top: -100px;
     }
     .quick-container .card{
         grid-template-columns: repeat(1, 1fr);
-        gap:none;
-        
+
     }
+    .card{
+        margin-top: 40px;
+    }
+    .feature-container h2{
+        margin-left: 20px;
+    }
+    
     .nav-container{
         padding: 10px;
     }
